@@ -7,10 +7,10 @@ import { TitleExp } from "@/components/title-experience";
 const Energy = () => {
     return (
         <div className="justify-center content-center">
-            <ImageBg src='/img/energia.jpg' /> 
+            <ImageBg src='/img/energia.jpg' alt="Imagen De Energia"/> 
             <Navbar urlBefore='/focus-page' urlNext='/love-page' />
             <ButtonHome />
-            <TitleExp children={'Energy Experience'} />
+            <TitleExp>Energy Experience</TitleExp>
         </div>
     );
 };

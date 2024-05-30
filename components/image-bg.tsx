@@ -1,11 +1,16 @@
 'use client';
 
-interface Props extends React.ImgHTMLAttributes<HTMLImageElement> {}
+import Image from 'next/image';
 
-const ImageBg = (props: Props) => {
+interface Props {
+    src: string;
+    alt: string;
+}
+
+const ImageBg = ({ src, alt }: Props) => {
     return (
         <div className="min-h-screen flex bg-gradient-cover">
-            <img {...props} />
+            <Image src={src} alt={alt} layout="fill" objectFit="cover" />
         </div>
     );
 };
