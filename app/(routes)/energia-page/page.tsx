@@ -4,15 +4,15 @@ import ImageBg from "@/components/image-bg";
 import Navbar from "@/components/navbar";
 import { TitleExp } from "@/components/title-experience";
 
-const Paz = () => {
+const Energy = () => {
     return (
         <div className="justify-center content-center">
-            <ImageBg src='/img/paz.jpg' /> 
-            <Navbar urlBefore='/love-page' urlNext='/focus-page' />
+            <ImageBg src='/img/energia.jpg' /> 
+            <Navbar urlBefore='/focus-page' urlNext='/love-page' />
             <ButtonHome />
-            <TitleExp children={'Peace Experience'}/>
+            <TitleExp children={'Energy Experience'} />
         </div>
     );
 };
 
-export default Paz;
+export default Energy;
