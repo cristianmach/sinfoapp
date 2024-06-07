@@ -1,9 +1,8 @@
 import Image from "next/image";
 import { CoverParticles } from "@/components/cover-particles";
 import Bubbles from "@/components/bubbles";
+import TitleHome from "@/components/title-home";
 import TextFoot from "@/components/text-foot";
-import MainTitle from "@/components/main-title";
-import IntroText from "@/components/introduction";
 
 
 export default function Home() {
@@ -11,8 +10,8 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-cover text-secondary justify-center content-center">
       <div>
         <CoverParticles />
-        <MainTitle />
-        <IntroText />
+        <TitleHome />
+        <Bubbles />
         <TextFoot />
       </div>
       
