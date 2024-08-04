@@ -8,7 +8,7 @@ const Paz = () => {
     return (
         <div className="justify-center content-center">
             <ImageBg src='/img/paz.jpg' alt="Imagen de Paz" /> 
-            <Navbar urlBefore='/love-page' urlNext='/focus-page' />
+            <Navbar urlBefore='/love-page' urlNext='/focus-page' audioSrc="/music/paz.mp3"/>
             <ButtonHome />
             <TitleExp>Peace Experience</TitleExp>
         </div>
