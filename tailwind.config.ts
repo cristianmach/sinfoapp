@@ -24,6 +24,8 @@ const config: Config = {
         "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(221,217,167,1) 100%);",
        "gradient-purple": 
         "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(221,167,216,1) 100%);",
+       "gradient-orange": 
+        "radial-gradient(circle, rgba(248,248,248,1) 0%, rgba(252,183,70,1) 100%);",
        'paz-img': "url('/img/paz.jpg')"
       },
     },

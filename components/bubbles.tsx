@@ -9,6 +9,7 @@ const Bubbles = () => {
             <a href="/focus-page" className="w-40 h-40 rounded-full bg-gradient-green content-center border cursor-pointer">CONCENTRACIÓN</a>
             <a href="/energia-page" className="w-40 h-40 rounded-full bg-gradient-yellow content-center border cursor-pointer">ENERGÍA</a>
             <a href="/love-page" className="w-40 h-40 rounded-full bg-gradient-purple content-center border cursor-pointer">AMOR</a>
+            <a href="/inspiracion-page" className="w-40 h-40 rounded-full bg-gradient-orange content-center border cursor-pointer">INSPIRACION</a>
             
         </div>
     )
