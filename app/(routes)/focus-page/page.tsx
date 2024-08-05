@@ -8,7 +8,7 @@ import { TitleExp } from "@/components/title-experience";
 const Focus = () => {
     return (
         <div className="justify-center content-center">
-            <ImageBg src='/img/focus.jpeg' alt="Imagen de Concentracion" /> 
+            <ImageBg src='/img/focus.jpg' alt="Imagen de Concentracion" /> 
             <Navbar urlBefore='/paz-page' urlNext='/energia-page' audioSrc="/music/focus.mp3"/>
             <ButtonHome />
             <TitleExp>Focus Experience</TitleExp>
