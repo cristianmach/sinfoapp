@@ -24,8 +24,18 @@ const config: Config = {
         "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(221,217,167,1) 100%);",
        "gradient-purple": 
         "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(221,167,216,1) 100%);",
+        "gradient-verde": 
+        "radial-gradient(circle, rgba(248,248,248,1) 0%, rgba(70,252,167,1) 100%);",
        "gradient-orange": 
         "radial-gradient(circle, rgba(248,248,248,1) 0%, rgba(252,183,70,1) 100%);",
+        "gradient-blue": 
+        "radial-gradient(circle, rgba(248,248,248,1) 0%, rgba(70,217,252,1) 100%);",
+        "gradient-morado": 
+        "radial-gradient(circle, rgba(248,248,248,1) 0%, rgba(143,70,252,1) 100%);",
+        "gradient-cielo": 
+        "radial-gradient(circle, rgba(248,248,248,1) 0%, rgba(72,70,252,1) 100%);",
+        "gradient-rosa": 
+        "radial-gradient(circle, rgba(248,248,248,1) 0%, rgba(252,70,153,1) 100%);",
        'paz-img': "url('/img/paz.jpg')"
       },
     },
